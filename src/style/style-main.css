@@ -1,0 +1,116 @@
+.main__item {
+    display: flex;
+    justify-content: center;
+}
+
+.main__item-pos-eng {
+    padding: 4.5em 0 2em;
+}
+
+.main__item-pos-rus {
+    padding: 7em 0 16em 0;
+
+}
+
+.main__item-background-eng {
+ background: rgb(29,117,222);
+} 
+
+.main__item-background-rus {
+    background-color: rgb(41,65,171);
+    background-image: url("../imgs/background-circles.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+.main__subscription {
+   text-align: left;
+   width: 67%;
+}
+
+.main__premium {
+    color: white;
+    font-size: 14px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main__premium_pos {
+    padding: 1em 0 2em;
+}
+
+.main__eng-title {
+    font-size: 72px;
+    color: white;
+    font-weight: bold;
+}
+
+.main__eng-description {
+    font-size: 28px;
+    color: white;
+}
+
+.main__eng-description_pos {
+    margin-top: 2em;
+}
+
+.main__link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main__link-white {
+    color: white;
+}
+
+.main__link-blue {
+    color: rgb(41,65,171);
+}
+
+.main__sub-button {
+    padding: 16px 32px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main__sub-button:hover {
+    filter: opacity(0.7);
+}
+
+.main__sub-button-bacground-black {
+    background: black;
+} 
+
+.main__sub-button-bacground-green {
+   background:  rgb(30,215,96);;
+} 
+
+.main__sub-button_wrap {
+    margin-top: 2em;
+}
+
+.main__sub-button_pos {
+    margin: 3em 0;
+}
+
+.main__rus-title {
+    font-size: 54px;
+    color: rgb(30,215,96);
+}
+
+.main__rus-title_pos {
+    margin-bottom: 0.5em;
+}
+
+.main__rus-description {
+    color: rgb(30,215,96);
+}
+
+.main__rus-description-pos {
+    margin-top: 2em;
+}

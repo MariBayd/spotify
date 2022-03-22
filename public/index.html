@@ -3,35 +3,140 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="../src/style/style-basic.css"/>
+    <link rel="stylesheet" href="../src/style/style-header.css" />
+    <link rel="stylesheet" href="../src/style/style-main.css" />
+    <link rel="stylesheet" href="../src/style/style-footer.css" />
+    <link rel="icon" type="img/png"  href="../src/imgs/favicon-spotify.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Услышать весь мир - Spotify</title>
   </head>
-  <body>
+
+  <body class="app">
+
+    <header class="header header_bac-color-black">
+
+      <a href="#" class="header__logo" >
+        <img src="../src/imgs/Spotify_logo_with_text.svg" class="logo_size-default" alt="logo"/>
+      </a>
+
+        <ul class="header__nav header__nav_pos header__nav_text">
+          <li class="header_li-pos">
+            <a href="#" class="link  link_color-white">Premium</a>
+          </li>
+          <li class="header_li-pos">
+            <a href="#" class="link link_color-white">Справка</a>
+          </li>
+          <li class="header_li-pos">
+            <a href="#" class="link link_color-white">Скачать</a>
+          </li>
+          <li  class="header_li-pos header__separator header__separator_size-default ">
+          </li>
+          
+          <li class="header_li-pos header__nav">
+              <img class=" header_li-pos logo-profil link_color-white" src="../src/imgs/icon-profil.svg"/>
+               <a  href="#" class="link link_color-white">Профиль</a>
+               <img src="../src/imgs/profil_arrow-down.svg" class="arrow-profil" width="12px" height="12px">
+          </li>
+        </ul>
+    </header>
+
+    <main class="main ">
+     <section class="main__item main__item-pos-eng main__item-background-eng ">
+       <article class="main__subscription">
+        <p class="main__premium main__premium_pos ">Spotify premium</p>
+        <h1 class="main__eng-title">Listen without limits</h1>
+        <p class="main__eng-description main__eng-description_pos">Play millions of songs ad-free, on-demand, and offline</p>
+        <a href="#" class="main__link main__link-white">
+          <div class="main__sub-button_wrap main__sub-button_pos">
+              <span class="main__sub-button main__sub-button-bacground-black" >Посмотреть варианты подписки</span>
+          </div>
+        </a>
+       </article>
+     </section>
+     <section class="main__item main__item-pos-rus  main__item-background-rus" >
+       <article class="main__subscription  main__player">
+       <h2 class="main__rus-title main__rus-title_pos">Не знаете, что послушать?</h2>
+       <p class="main__rus-description main__rus-description-pos">Начните с лучших новинок.</p>
+       <a href="#" class="main__link">
+         <div class="main__sub-button_wrap main__sub-button_pos">
+           <span class="main__sub-button main__sub-button-bacground-green">Открыть веб-плеер</span>
+         </div>
+        </a>
+       </article>
+     </section>
+    </main>
+    
+    <footer class="footer footer_pos">
+
+      <div class="footer__item footer__item_pos">
+        <div class="footer__links">
+          <img  src="../src/imgs/Spotify_logo_with_text.svg" class="logo_size-default" alt="logo"/>
+        <ul class="footer__nav footer__nav_pos">
+          <li>
+            <h3 class="footer__title">Компания</h3>
+          </li>
+          <li><a href="#" class="link link_color-white">О нас</a></li>
+          <li><a href="#" class="link link_color-white">Вакансии</a></li>
+          <li><a href="#" class="link link_color-white">For the Record</a></li>
+        </ul>
+      
+        <ul class="footer__nav footer__nav_pos footer__nav-text">
+          <li>
+            <h3 class="footer__title">Сообщества</h3>
+          </li>
+          <li><a href="#" class="link link_color-white">Для исполнителей</a></li>
+          <li><a href="#" class="link link_color-white">Для разработчиков</a></li>
+          <li><a href="#" class="link link_color-white">Реклама</a></li>
+          <li><a href="#" class="link link_color-white">Для инвесторов</a></li>
+          <li><a href="#" class="link link_color-white">Для вендоров</a></li>
+        </ul>
+
+        <ul class="footer__nav">
+          <li>
+            <h3 class="footer__title">Полезные ссылки</h3>
+          </li>
+          <li><a href="#" class="link link_color-white">Справка</a></li>
+          <li><a href="#" class="link link_color-white">Веб-плеер</a></li>
+          <li><a href="#" class="link link_color-white">Бесплатное<br>мобильное<br>приложение</a></li>
+        </ul>
+        </div>
+        
+        <div class="footer__social-links">
+          <a a href="https://instagram.com/spotify" class="link">
+            <img src="../src/imgs/icon-inst.svg" class="footer__social-link footer__inst footer__social-link_pos" width="54px" height="54px">
+          </a>
+          <a href="#" class="link">
+            <img src="../src/imgs/icon-twitter.svg" class="footer__social-link footer__twitter footer__social-link_pos "  width="54px" height="54px">
+          </a>
+          <a a href="#" class="link">
+            <img src="../src/imgs/icon-facebook.svg" class="footer__social-link footer__facebook" width="54px" height="54px" />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__item footer__item_pos">
+        <div>
+          <a href="#" class="footer_info-text footer_info-text-pos link">Юридическая информация</a>
+          <a href="#" class="footer_info-text footer_info-text-pos link">Центр конфиденциальности</a>
+          <a href="#" class="footer_info-text footer_info-text-pos link">Политика конфиденциальности</a>
+          <a href="#" class="footer_info-text footer_info-text-pos link">Файлы cookie</a>
+          <a href="#" class="footer_info-text footer_info-text-pos link">О рекламе</a>
+        </div>
+
+        <div class="copyright">
+          <img src="../src/imgs/icon-lang.svg">
+          <a href="#" class="footer_info-text link">Россия(русский)</a>
+          <p class="footer_info-text copyright_spotify-pos ">© 2022 Spotify AB</p>
+        </div>
+      </div>
+    </footer>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
