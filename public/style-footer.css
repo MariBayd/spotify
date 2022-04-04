@@ -56,15 +56,15 @@
 }
 
 .footer__inst:hover {
-   content: url("../imgs/icon-inst-green.svg");
+   content: url("/src/imgs/icon-inst-green.svg");
 }
 
 .footer__twitter:hover {
-    content: url("../imgs/icon-twitter-green.svg");
+    content: url("/src/imgs/icon-twitter-green.svg");
 }
 
 .footer__facebook:hover {
-    content: url("../imgs/icon-facebook-green.svg");
+    content: url("/src/imgs/icon-facebook-green.svg");
 }
 
 .footer__social-link_pos {
